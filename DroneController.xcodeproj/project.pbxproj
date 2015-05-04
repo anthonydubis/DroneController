@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9717B6991AEDB78800A99CD8 /* BButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9717B6941AEDB78800A99CD8 /* BButton.m */; };
+		9717B69A1AEDB78800A99CD8 /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 9717B6961AEDB78800A99CD8 /* NSString+FontAwesome.m */; };
+		9717B69B1AEDB78800A99CD8 /* UIColor+BButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9717B6981AEDB78800A99CD8 /* UIColor+BButton.m */; };
+		9717B69D1AEDB79200A99CD8 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9717B69C1AEDB79200A99CD8 /* FontAwesome.ttf */; };
+		9717B6D31AEF000900A99CD8 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9717B6C11AEF000900A99CD8 /* AFHTTPRequestOperation.m */; };
+		9717B6D41AEF000900A99CD8 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9717B6C31AEF000900A99CD8 /* AFHTTPRequestOperationManager.m */; };
+		9717B6D51AEF000900A99CD8 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9717B6C51AEF000900A99CD8 /* AFHTTPSessionManager.m */; };
+		9717B6D61AEF000900A99CD8 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9717B6C81AEF000900A99CD8 /* AFNetworkReachabilityManager.m */; };
+		9717B6D71AEF000900A99CD8 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9717B6CA1AEF000900A99CD8 /* AFSecurityPolicy.m */; };
+		9717B6D81AEF000900A99CD8 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9717B6CC1AEF000900A99CD8 /* AFURLConnectionOperation.m */; };
+		9717B6D91AEF000900A99CD8 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 9717B6CE1AEF000900A99CD8 /* AFURLRequestSerialization.m */; };
+		9717B6DA1AEF000900A99CD8 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 9717B6D01AEF000900A99CD8 /* AFURLResponseSerialization.m */; };
+		9717B6DB1AEF000900A99CD8 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9717B6D21AEF000900A99CD8 /* AFURLSessionManager.m */; };
+		9717B6E51AF047F400A99CD8 /* Background5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9717B6E31AF047F400A99CD8 /* Background5.jpg */; };
+		974066531AEA5DF100CAC0F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 974066521AEA5DF100CAC0F4 /* main.m */; };
+		974066561AEA5DF100CAC0F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 974066551AEA5DF100CAC0F4 /* AppDelegate.m */; };
+		974066591AEA5DF100CAC0F4 /* DroneControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 974066581AEA5DF100CAC0F4 /* DroneControllerViewController.m */; };
+		9740665C1AEA5DF100CAC0F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9740665A1AEA5DF100CAC0F4 /* Main.storyboard */; };
+		9740665E1AEA5DF100CAC0F4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9740665D1AEA5DF100CAC0F4 /* Images.xcassets */; };
+		974066611AEA5DF100CAC0F4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9740665F1AEA5DF100CAC0F4 /* LaunchScreen.xib */; };
+		9740666D1AEA5DF100CAC0F4 /* DroneControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9740666C1AEA5DF100CAC0F4 /* DroneControllerTests.m */; };
+		97E62DBF1AF7911300CECBCB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97E62DBE1AF7911300CECBCB /* AVFoundation.framework */; };
+		97E62DC11AF791CF00CECBCB /* beep-07.wav in Resources */ = {isa = PBXBuildFile; fileRef = 97E62DC01AF791CF00CECBCB /* beep-07.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		974066671AEA5DF100CAC0F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 974066451AEA5DF100CAC0F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9740664C1AEA5DF100CAC0F4;
+			remoteInfo = DroneController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9717B6931AEDB78800A99CD8 /* BButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BButton.h; sourceTree = "<group>"; };
+		9717B6941AEDB78800A99CD8 /* BButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BButton.m; sourceTree = "<group>"; };
+		9717B6951AEDB78800A99CD8 /* NSString+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FontAwesome.h"; sourceTree = "<group>"; };
+		9717B6961AEDB78800A99CD8 /* NSString+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FontAwesome.m"; sourceTree = "<group>"; };
+		9717B6971AEDB78800A99CD8 /* UIColor+BButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+BButton.h"; sourceTree = "<group>"; };
+		9717B6981AEDB78800A99CD8 /* UIColor+BButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BButton.m"; sourceTree = "<group>"; };
+		9717B69C1AEDB79200A99CD8 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		9717B6C01AEF000900A99CD8 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		9717B6C11AEF000900A99CD8 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		9717B6C21AEF000900A99CD8 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		9717B6C31AEF000900A99CD8 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		9717B6C41AEF000900A99CD8 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		9717B6C51AEF000900A99CD8 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		9717B6C61AEF000900A99CD8 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		9717B6C71AEF000900A99CD8 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		9717B6C81AEF000900A99CD8 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		9717B6C91AEF000900A99CD8 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		9717B6CA1AEF000900A99CD8 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		9717B6CB1AEF000900A99CD8 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		9717B6CC1AEF000900A99CD8 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		9717B6CD1AEF000900A99CD8 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		9717B6CE1AEF000900A99CD8 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		9717B6CF1AEF000900A99CD8 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		9717B6D01AEF000900A99CD8 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		9717B6D11AEF000900A99CD8 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		9717B6D21AEF000900A99CD8 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		9717B6E31AF047F400A99CD8 /* Background5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Background5.jpg; sourceTree = "<group>"; };
+		9740664D1AEA5DF100CAC0F4 /* DroneController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DroneController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		974066511AEA5DF100CAC0F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		974066521AEA5DF100CAC0F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		974066541AEA5DF100CAC0F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		974066551AEA5DF100CAC0F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		974066571AEA5DF100CAC0F4 /* DroneControllerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DroneControllerViewController.h; sourceTree = "<group>"; };
+		974066581AEA5DF100CAC0F4 /* DroneControllerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DroneControllerViewController.m; sourceTree = "<group>"; };
+		9740665B1AEA5DF100CAC0F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9740665D1AEA5DF100CAC0F4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		974066601AEA5DF100CAC0F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		974066661AEA5DF100CAC0F4 /* DroneControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DroneControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9740666B1AEA5DF100CAC0F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9740666C1AEA5DF100CAC0F4 /* DroneControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DroneControllerTests.m; sourceTree = "<group>"; };
+		97E62DBE1AF7911300CECBCB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		97E62DC01AF791CF00CECBCB /* beep-07.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "beep-07.wav"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9740664A1AEA5DF100CAC0F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97E62DBF1AF7911300CECBCB /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		974066631AEA5DF100CAC0F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9717B69E1AEDB7AB00A99CD8 /* BButton */ = {
+			isa = PBXGroup;
+			children = (
+				9717B6931AEDB78800A99CD8 /* BButton.h */,
+				9717B6941AEDB78800A99CD8 /* BButton.m */,
+				9717B6951AEDB78800A99CD8 /* NSString+FontAwesome.h */,
+				9717B6961AEDB78800A99CD8 /* NSString+FontAwesome.m */,
+				9717B6971AEDB78800A99CD8 /* UIColor+BButton.h */,
+				9717B6981AEDB78800A99CD8 /* UIColor+BButton.m */,
+				9717B69C1AEDB79200A99CD8 /* FontAwesome.ttf */,
+			);
+			name = BButton;
+			sourceTree = "<group>";
+		};
+		9717B6DC1AF0161800A99CD8 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				9717B6C01AEF000900A99CD8 /* AFHTTPRequestOperation.h */,
+				9717B6C11AEF000900A99CD8 /* AFHTTPRequestOperation.m */,
+				9717B6C21AEF000900A99CD8 /* AFHTTPRequestOperationManager.h */,
+				9717B6C31AEF000900A99CD8 /* AFHTTPRequestOperationManager.m */,
+				9717B6C41AEF000900A99CD8 /* AFHTTPSessionManager.h */,
+				9717B6C51AEF000900A99CD8 /* AFHTTPSessionManager.m */,
+				9717B6C61AEF000900A99CD8 /* AFNetworking.h */,
+				9717B6C71AEF000900A99CD8 /* AFNetworkReachabilityManager.h */,
+				9717B6C81AEF000900A99CD8 /* AFNetworkReachabilityManager.m */,
+				9717B6C91AEF000900A99CD8 /* AFSecurityPolicy.h */,
+				9717B6CA1AEF000900A99CD8 /* AFSecurityPolicy.m */,
+				9717B6CB1AEF000900A99CD8 /* AFURLConnectionOperation.h */,
+				9717B6CC1AEF000900A99CD8 /* AFURLConnectionOperation.m */,
+				9717B6CD1AEF000900A99CD8 /* AFURLRequestSerialization.h */,
+				9717B6CE1AEF000900A99CD8 /* AFURLRequestSerialization.m */,
+				9717B6CF1AEF000900A99CD8 /* AFURLResponseSerialization.h */,
+				9717B6D01AEF000900A99CD8 /* AFURLResponseSerialization.m */,
+				9717B6D11AEF000900A99CD8 /* AFURLSessionManager.h */,
+				9717B6D21AEF000900A99CD8 /* AFURLSessionManager.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		974066441AEA5DF100CAC0F4 = {
+			isa = PBXGroup;
+			children = (
+				97E62DBE1AF7911300CECBCB /* AVFoundation.framework */,
+				9740664F1AEA5DF100CAC0F4 /* DroneController */,
+				974066691AEA5DF100CAC0F4 /* DroneControllerTests */,
+				9740664E1AEA5DF100CAC0F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9740664E1AEA5DF100CAC0F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9740664D1AEA5DF100CAC0F4 /* DroneController.app */,
+				974066661AEA5DF100CAC0F4 /* DroneControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9740664F1AEA5DF100CAC0F4 /* DroneController */ = {
+			isa = PBXGroup;
+			children = (
+				9717B6DC1AF0161800A99CD8 /* Networking */,
+				9717B69E1AEDB7AB00A99CD8 /* BButton */,
+				974066541AEA5DF100CAC0F4 /* AppDelegate.h */,
+				974066551AEA5DF100CAC0F4 /* AppDelegate.m */,
+				974066571AEA5DF100CAC0F4 /* DroneControllerViewController.h */,
+				974066581AEA5DF100CAC0F4 /* DroneControllerViewController.m */,
+				9740665A1AEA5DF100CAC0F4 /* Main.storyboard */,
+				9740665D1AEA5DF100CAC0F4 /* Images.xcassets */,
+				974066501AEA5DF100CAC0F4 /* Supporting Files */,
+			);
+			path = DroneController;
+			sourceTree = "<group>";
+		};
+		974066501AEA5DF100CAC0F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9740665F1AEA5DF100CAC0F4 /* LaunchScreen.xib */,
+				974066511AEA5DF100CAC0F4 /* Info.plist */,
+				974066521AEA5DF100CAC0F4 /* main.m */,
+				97E62DC01AF791CF00CECBCB /* beep-07.wav */,
+				9717B6E31AF047F400A99CD8 /* Background5.jpg */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		974066691AEA5DF100CAC0F4 /* DroneControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				9740666C1AEA5DF100CAC0F4 /* DroneControllerTests.m */,
+				9740666A1AEA5DF100CAC0F4 /* Supporting Files */,
+			);
+			path = DroneControllerTests;
+			sourceTree = "<group>";
+		};
+		9740666A1AEA5DF100CAC0F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9740666B1AEA5DF100CAC0F4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9740664C1AEA5DF100CAC0F4 /* DroneController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 974066701AEA5DF100CAC0F4 /* Build configuration list for PBXNativeTarget "DroneController" */;
+			buildPhases = (
+				974066491AEA5DF100CAC0F4 /* Sources */,
+				9740664A1AEA5DF100CAC0F4 /* Frameworks */,
+				9740664B1AEA5DF100CAC0F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DroneController;
+			productName = DroneController;
+			productReference = 9740664D1AEA5DF100CAC0F4 /* DroneController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		974066651AEA5DF100CAC0F4 /* DroneControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 974066731AEA5DF100CAC0F4 /* Build configuration list for PBXNativeTarget "DroneControllerTests" */;
+			buildPhases = (
+				974066621AEA5DF100CAC0F4 /* Sources */,
+				974066631AEA5DF100CAC0F4 /* Frameworks */,
+				974066641AEA5DF100CAC0F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				974066681AEA5DF100CAC0F4 /* PBXTargetDependency */,
+			);
+			name = DroneControllerTests;
+			productName = DroneControllerTests;
+			productReference = 974066661AEA5DF100CAC0F4 /* DroneControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		974066451AEA5DF100CAC0F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Anthony Dubis";
+				TargetAttributes = {
+					9740664C1AEA5DF100CAC0F4 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					974066651AEA5DF100CAC0F4 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 9740664C1AEA5DF100CAC0F4;
+					};
+				};
+			};
+			buildConfigurationList = 974066481AEA5DF100CAC0F4 /* Build configuration list for PBXProject "DroneController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 974066441AEA5DF100CAC0F4;
+			productRefGroup = 9740664E1AEA5DF100CAC0F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9740664C1AEA5DF100CAC0F4 /* DroneController */,
+				974066651AEA5DF100CAC0F4 /* DroneControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9740664B1AEA5DF100CAC0F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9740665C1AEA5DF100CAC0F4 /* Main.storyboard in Resources */,
+				97E62DC11AF791CF00CECBCB /* beep-07.wav in Resources */,
+				974066611AEA5DF100CAC0F4 /* LaunchScreen.xib in Resources */,
+				9717B6E51AF047F400A99CD8 /* Background5.jpg in Resources */,
+				9740665E1AEA5DF100CAC0F4 /* Images.xcassets in Resources */,
+				9717B69D1AEDB79200A99CD8 /* FontAwesome.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		974066641AEA5DF100CAC0F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		974066491AEA5DF100CAC0F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9717B6DB1AEF000900A99CD8 /* AFURLSessionManager.m in Sources */,
+				9717B69B1AEDB78800A99CD8 /* UIColor+BButton.m in Sources */,
+				9717B69A1AEDB78800A99CD8 /* NSString+FontAwesome.m in Sources */,
+				9717B6D61AEF000900A99CD8 /* AFNetworkReachabilityManager.m in Sources */,
+				974066591AEA5DF100CAC0F4 /* DroneControllerViewController.m in Sources */,
+				9717B6D81AEF000900A99CD8 /* AFURLConnectionOperation.m in Sources */,
+				9717B6D51AEF000900A99CD8 /* AFHTTPSessionManager.m in Sources */,
+				9717B6D91AEF000900A99CD8 /* AFURLRequestSerialization.m in Sources */,
+				974066561AEA5DF100CAC0F4 /* AppDelegate.m in Sources */,
+				9717B6991AEDB78800A99CD8 /* BButton.m in Sources */,
+				974066531AEA5DF100CAC0F4 /* main.m in Sources */,
+				9717B6D41AEF000900A99CD8 /* AFHTTPRequestOperationManager.m in Sources */,
+				9717B6D71AEF000900A99CD8 /* AFSecurityPolicy.m in Sources */,
+				9717B6DA1AEF000900A99CD8 /* AFURLResponseSerialization.m in Sources */,
+				9717B6D31AEF000900A99CD8 /* AFHTTPRequestOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		974066621AEA5DF100CAC0F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9740666D1AEA5DF100CAC0F4 /* DroneControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		974066681AEA5DF100CAC0F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9740664C1AEA5DF100CAC0F4 /* DroneController */;
+			targetProxy = 974066671AEA5DF100CAC0F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9740665A1AEA5DF100CAC0F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9740665B1AEA5DF100CAC0F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9740665F1AEA5DF100CAC0F4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				974066601AEA5DF100CAC0F4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9740666E1AEA5DF100CAC0F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9740666F1AEA5DF100CAC0F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		974066711AEA5DF100CAC0F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DroneController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		974066721AEA5DF100CAC0F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DroneController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		974066741AEA5DF100CAC0F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DroneControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DroneController.app/DroneController";
+			};
+			name = Debug;
+		};
+		974066751AEA5DF100CAC0F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DroneControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DroneController.app/DroneController";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		974066481AEA5DF100CAC0F4 /* Build configuration list for PBXProject "DroneController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9740666E1AEA5DF100CAC0F4 /* Debug */,
+				9740666F1AEA5DF100CAC0F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		974066701AEA5DF100CAC0F4 /* Build configuration list for PBXNativeTarget "DroneController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				974066711AEA5DF100CAC0F4 /* Debug */,
+				974066721AEA5DF100CAC0F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		974066731AEA5DF100CAC0F4 /* Build configuration list for PBXNativeTarget "DroneControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				974066741AEA5DF100CAC0F4 /* Debug */,
+				974066751AEA5DF100CAC0F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 974066451AEA5DF100CAC0F4 /* Project object */;
+}
